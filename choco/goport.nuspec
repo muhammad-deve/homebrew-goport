@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>goport</id>
+    <version>0.1.0</version>
+    <title>GoPort</title>
+    <authors>muhammad-deve</authors>
+    <owners>muhammad-deve</owners>
+    <projectUrl>https://goport.uz</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/muhammad-deve/GoPort/main/docs/goport-icon.svg</iconUrl>
+    <licenseUrl>https://github.com/muhammad-deve/GoPort/blob/main/LICENSE</licenseUrl>
+    <packageSourceUrl>https://github.com/muhammad-deve/homebrew-goport/tree/main/choco</packageSourceUrl>
+    <projectSourceUrl>https://github.com/muhammad-deve/GoPort</projectSourceUrl>
+    <docsUrl>https://github.com/muhammad-deve/GoPort/tree/main/docs</docsUrl>
+    <bugTrackerUrl>https://github.com/muhammad-deve/GoPort/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/muhammad-deve/GoPort/releases/tag/v0.1.0</releaseNotes>
+    <description>Expose localhost to the internet instantly. Self-hosted tunneling tool for developers.</description>
+    <summary>ngrok-like TCP tunneling tool</summary>
+    <tags>tunnel localhost networking developer-tools go</tags>
+  </metadata>
+</package>
