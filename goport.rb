@@ -6,16 +6,16 @@ class Goport < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/muhammad-deve/GoPort/releases/download/v0.1.1/goport-darwin-arm64"
-      sha256 "949867aa51b98146abd5219d29ecee1c0e7fca54528a9f7c4be76bf04fb33a10"
+      sha256 "d8bb395f36a73a210415753d4da31c87c6364df350234f990631e0f0b99d8ce3"
     else
       url "https://github.com/muhammad-deve/GoPort/releases/download/v0.1.1/goport-darwin-amd64"
-      sha256 "2239287fbdc92843b009a0923fb79b9809d774ab6298a62e3cb6b5955a22f92d"
+      sha256 "32a635d47070a41c180a3657c9f50a8653ef08027720c2239a8f65345116c539"
     end
   end
 
   on_linux do
     url "https://github.com/muhammad-deve/GoPort/releases/download/v0.1.1/goport-linux-amd64"
-    sha256 "b1b354d0f5cf4828d72d374d9a235c40b02d53849a6487a87b704b6a50af87ff"
+    sha256 "cfa56d605843096bb44295f54af3246c09f04a06d50796d5ea86a15973bb9192"
   end
 
   def install
