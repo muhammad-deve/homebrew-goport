@@ -2,8 +2,8 @@ $ErrorActionPreference = 'Stop'
 
 $packageArgs = @{
   packageName   = 'goport'
-  url64bit      = 'https://github.com/muhammad-deve/GoPort/releases/download/v0.1.4/goport-windows-amd64.exe'
-  checksum64    = '3b9593f73a3f21bd99f113d474f0ae12511093ccdb319535be8467ab652e02cb'
+  url64bit      = 'https://github.com/muhammad-deve/GoPort/releases/download/v0.1.5/goport-windows-amd64.exe'
+  checksum64    = '9f825a7981116c0dcfaa6a1d6b17c632d24adb1d1c7d4f9973185061db24d48f'
   checksumType64= 'sha256'
   fileType      = 'exe'
   silentArgs    = ''
