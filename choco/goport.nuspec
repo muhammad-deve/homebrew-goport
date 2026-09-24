@@ -7,7 +7,8 @@
     <authors>muhammad-deve</authors>
     <owners>muhammad-deve</owners>
     <projectUrl>https://goport.uz</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/muhammad-deve/GoPort/main/docs/goport-icon.svg</iconUrl>
+    <!-- Chocolatey moderation rejects raw.githubusercontent.com; serve repo files via jsDelivr instead. -->
+    <iconUrl>https://cdn.jsdelivr.net/gh/muhammad-deve/GoPort@main/docs/goport-icon.svg</iconUrl>
     <licenseUrl>https://github.com/muhammad-deve/GoPort/blob/main/LICENSE</licenseUrl>
     <packageSourceUrl>https://github.com/muhammad-deve/homebrew-goport/tree/main/choco</packageSourceUrl>
     <projectSourceUrl>https://github.com/muhammad-deve/GoPort</projectSourceUrl>
