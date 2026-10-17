@@ -1,21 +1,21 @@
 class Goport < Formula
   desc "Expose localhost to the internet instantly"
   homepage "https://goport.uz"
-  version "0.1.5"
+  version "0.1.8"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/muhammad-deve/GoPort/releases/download/v0.1.5/goport-darwin-arm64"
-      sha256 "97cd80ac99281c97da010ebec08dfa9f40ef973e2124374aee8dcbbc6161b438"
+      url "https://github.com/muhammad-deve/GoPort/releases/download/v0.1.8/goport-darwin-arm64"
+      sha256 "e9b824bc6d71cf2475380c56a3f560f8cd40eff4fa7a03e6572c7826c3d731fe"
     else
-      url "https://github.com/muhammad-deve/GoPort/releases/download/v0.1.5/goport-darwin-amd64"
-      sha256 "3a72a6443bd94e3c47c01cdcedc5ecab7d4a4df34da3ffb4c9abb223f98ee514"
+      url "https://github.com/muhammad-deve/GoPort/releases/download/v0.1.8/goport-darwin-amd64"
+      sha256 "4c521fbfdfea0cd15e5ea869343f7877336dd393a1355eb9bc45dc8db8597248"
     end
   end
 
   on_linux do
-    url "https://github.com/muhammad-deve/GoPort/releases/download/v0.1.5/goport-linux-amd64"
-    sha256 "be172b7e3fb42cb498fdf8283ecda9419077282e42af834387293ff6996c5d34"
+    url "https://github.com/muhammad-deve/GoPort/releases/download/v0.1.8/goport-linux-amd64"
+    sha256 "1dfe68f41472a4dafa9e140a46c0d12a3a140a5a2c82537348ef0a197754a72c"
   end
 
   def install
